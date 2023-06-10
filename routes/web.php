@@ -14,4 +14,4 @@ use App\Http\Controllers\Guest\PageController as PageController;
 |
 */
 
-Route::get('/', [PageController::class, 'getPage'])->name('movie');
+Route::get('/', [PageController::class, 'getPage'])->name('home');
